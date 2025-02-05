@@ -1,0 +1,13 @@
+<footer class="container mx-auto text-center px-4 py-8">
+  <p class="text-xl max-lg:text-lg max-md:text-base">
+    <span>&copy;</span>
+    <span id="year"></span>
+    <span>Django & Tailwind CSS</span>
+  </p>
+</footer>
+
+<!-- JavaScript -->
+<script>
+  const year = document.querySelector("#year");
+  year.textContent = new Date().getFullYear();
+</script>

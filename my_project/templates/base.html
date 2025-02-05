@@ -8,12 +8,14 @@
     <!-- Tailwind CSS -->
     <link rel="stylesheet" href="{% static 'css/style.css' %}" />
 
-    <title>{% block title %}Django and Tailwind CSS{% endblock %}</title>
+    <title>{% block title %}{% endblock %}</title>
   </head>
 
-  <body>
-    {% block content %}
-      <h1>Django and Tailwind CSS</h1>
-    {% endblock %}
+  <body class="bg-zinc-900 text-gray-100">
+    {% include "header.html" %}
+
+    {% block content %}{% endblock %}
+
+    {% include "footer.html" %}
   </body>
 </html>
