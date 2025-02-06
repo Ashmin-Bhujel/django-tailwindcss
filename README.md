@@ -15,3 +15,9 @@ npm run tailwindcss
 You may need to change directory name inside `package.json` file if you create project directory named other than `my_project/`.
 
 For Django we can use the usual commands.
+
+## Example Web Page
+
+Just a simple web page.
+
+https://github.com/user-attachments/assets/d0b05df2-94d3-4b21-9d83-bf48b7432e78
